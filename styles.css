@@ -1,0 +1,121 @@
+/* Reset some default styles */
+body, h1, h2, p, table {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #004C3F;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Styling for the main content */
+main {
+    padding: 2rem;
+}
+
+/* Styling for the lunch menu section */
+.lunch-menu {
+    margin-top: 2rem;
+}
+
+.table-container {
+    overflow-x: auto;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 15px;
+}
+
+th, td {
+    border: none;
+    padding: 10px;
+    width: 120px; /* Adjust the width to your preference */
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    color: #333; /* Darken the text color for better contrast */
+}
+
+/* Styling for the lunch options */
+td {
+    height: 150px; /* Increase the height for lunch options */
+}
+
+/* Styling for the footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #F5F5F5;
+    color: #666;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* ... (previous CSS content) ... */
+
+/* Styling for the days of the week */
+.day {
+    font-weight: bold;
+    color: #004C3F; /* Dark green color for days */
+}
+
+/* Highlight the current day */
+.current-day {
+    background-color: #E7F5F2; /* Light green background for the current day */
+    font-weight: bold;
+}
+
+/* ... (remaining CSS content) ... */
+
+.day {
+    font-weight: bold;
+    color: #004C3F; /* Dark green color for days */
+}
+
+/* ... (previous CSS content) ... */
+
+/* Highlight the current day's row */
+.current-day {
+    background-color: #E7F5F2; /* Light green background for the current day's row */
+    font-weight: bold;
+}
+
+/* ... (remaining CSS content) ... */
+
+/* ... (previous CSS content) ... */
+
+/* Styling for the mail button container */
+.mail-button-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Styling for the mail button */
+.mail-button {
+    display: inline-block;
+    background-color: #004C3F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.mail-button:hover {
+    background-color: #00342A;
+}
